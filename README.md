@@ -18,7 +18,7 @@ Clone the repository from GitHub
 [~]$ cd AirBnB_clone
 [AirBnB_clone]$ ./console.py
 ```
-## — Usage
+## • Usage
 The console works in both interactive and non-interactive mode. Below are the available commands.
 
 | Command     | What it does |
@@ -29,7 +29,7 @@ The console works in both interactive and non-interactive mode. Below are the av
 |`all`| Prints all string representations of all instances based or not on the class name |
 |`update`|Updates an instance based on the class name and id.
 
-## — Testing
+## • Testing
 The unittests for the AirBnB clone are located in the __tests__ folder. To run all tests, run this command
 ```(bash)
 [AirBnB_clone]$ python3 unittest -m discover tests
