@@ -1,14 +1,14 @@
 # AirBnB Clone
 AirBnB clone is a simple clone of AirBnB, implemented in python for the ALX Software Engineering Program
 
-## — Requirements
+## • Requirements
 The project was built using python 3.10.12 running on Ubuntu 22.04 LTS on WSL.
 
 The code was checked for PEP8 compliance using pycodestyle v2.8.
 
 Development was primarily done using Vim v8.2.1847 and GNU Nano v6.2
 
-## — Installation
+## • Installation
 Clone the repository from GitHub
 ```(bash)
 [~]$ git clone git@github.com:alemiherbert/AirBnB_clone.git
