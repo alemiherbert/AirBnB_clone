@@ -29,11 +29,11 @@
 	opacity: 90%;
 }
 
-.locations {
+.filters .locations {
 	border-right: 1px solid #DDDDDD;
 }
 
-.locations, .amenities {
+.filters .locations, .filters .amenities {
 	width: 25%;
 	height: 100%;
 	display: flex;
@@ -44,16 +44,16 @@
 	/* align-items: center; */
 }
 
-.locations > h3, .amenities > h3 {
+.filters .locations > h3, .filters .amenities > h3 {
 	font-weight: 600;
 }
 
-.locations > h4, .amenities > h4 {
+.filters .locations > h4, .filters .amenities > h4 {
 	font-weight: 400;
 	font-size: 14px;
 }
 
-.popover {
+.filters .popover {
 	display: none;
 	position: absolute;
 	left: 0;
@@ -66,30 +66,30 @@
 	padding: 30px;
 }
 
-.locations:hover > .popover, .amenities:hover > .popover {
+.filters .locations:hover > .popover, .filters .amenities:hover > .popover {
 	display: flex;
 	flex-direction: column;
 }
 
-.locations > .popover {
+.filters .locations > .popover {
 	gap: 30px;
 }
 
-.locations > .popover > li > ul {
+.filters .locations > .popover > li > ul {
 	display: flex;
 	flex-direction: column;
 	gap: 4px;
 }
 
-.amenities > .popover {
+.filters .amenities > .popover {
 	gap: 4px;
 }
 
-.popover > h2 {
+.filters .popover > h2 {
 	font-size: 16px;
 }
 
-.popover ul {
+.filters .popover ul {
 	padding-left: 16px;
 	padding-top: 4px;
 }
